@@ -77,7 +77,7 @@ int main()
    */
    //      {AnchoTablero}, {altoTablero}
     int x[]{ 12,109 }, y[]{ 4,25 };
-    Game game(x,y,3,1,8); // {AnchoTablero}, { altoTablero }, {nVidas}, {velocidadMeteoritos},{nMeteoritos}
+    Game game(x,y,3,1,6); // {AnchoTablero}, { altoTablero }, {nVidas}, {velocidadMeteoritos},{nMeteoritos}
     game.runGame();
     return 0;
 }
